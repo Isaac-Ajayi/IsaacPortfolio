@@ -1,6 +1,5 @@
-/** IMPORT DATA FROM CSV FILE**/
 
-IF OBJECT_ID('SuperStore') IS NOT NULL DROP TABLE SuperStore --THIS 
+/** IMPORT DATA FROM CSV FILE**/
 
 CREATE TABLE SuperStore (RowID INT,	OrderID NVARCHAR (15),	OrderDate date,	ShipDate date,	ShipMode NVARCHAR (20),	CustomerID NVARCHAR (8),	CustomerName NVARCHAR (50),	
 							Segment NVARCHAR (30),	Country NVARCHAR (30),	City NVARCHAR (30),	State NVARCHAR (30),	PostalCode INT,	Region NVARCHAR (30),	ProductID NVARCHAR (15),
